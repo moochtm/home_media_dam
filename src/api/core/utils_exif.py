@@ -10,7 +10,6 @@ import json
 
 from datetime import datetime
 from thirdparty import exiftool
-import settings
 
 
 class ExifToolError(Exception):

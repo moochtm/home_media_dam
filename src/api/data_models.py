@@ -89,6 +89,12 @@ class ParentPath(fields.Raw):
         return value
 
 
+init_model = api.model('init_model', {
+    'inbox_folder_path': fields.String(),
+    'archive_folder_path': fields.String()
+})
+
+
 base_folder_model = api.model('base_folder_model', {
     'path': fields.String(),
     'name': Name(attribute='path'),
@@ -112,12 +118,7 @@ base_asset_model = api.model('base_asset_model', {
 })
 
 folder_model = api.clone('folder_model', base_folder_model,
-                             {
-                                'children': fields.List(fields.Nested(base_folder_model)),
-                                'assets': fields.List(fields.Nested(base_asset_model))
-                             })
-
-init_model = api.model('init_model', {
-    'inbox_folder_path': fields.String(),
-    'archive_folder_path': fields.String()
-})
+                         {
+                             'children': fields.List(fields.Nested(base_folder_model)),
+                             'assets': fields.List(fields.Nested(base_asset_model))
+                         })

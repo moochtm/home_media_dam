@@ -6,10 +6,10 @@ from flask_restplus import Namespace, Resource, inputs
 from flask import request
 import urlparse
 
-from api.core import utils_fs
-from api.data_models import init_model
-import settings
+from ..core import utils_fs
+from ..data_models import init_model
 
+import settings
 
 api = Namespace('init', description='pass init variables to web')
 
@@ -35,7 +35,7 @@ class Init(Resource):
     @api.response(500, 'Internal Server Error')
     def get(self):
 
-        response = {}
+        response = dict()
         response['inbox_folder_path'] = settings.HOMEMEDIA_INBOX
         response['archive_folder_path'] = settings.HOMEMEDIA_ARCHIVE
 

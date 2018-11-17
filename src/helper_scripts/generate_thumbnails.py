@@ -1,8 +1,8 @@
 
 import os, inspect, sys
-import settings
+import src.settings
 
-from api.core import utils_fs, utils_preview
+from src.api.core import utils_preview, utils_fs
 
 pathToThisPyFile = inspect.getfile(inspect.currentframe())
 
@@ -52,11 +52,11 @@ def run():
 
     # DO THE WORK
     # ------------------------------------------
-    for dirName, subdirList, fileList in os.walk(settings.HOMEMEDIA_ROOT):
+    for dirName, subdirList, fileList in os.walk(src.settings.HOMEMEDIA_ROOT):
         tempdirs = []
         for dir in subdirList:
             blacklisted = False
-            for prefix in settings.FOLDER_PREFIX_BLACKLIST:
+            for prefix in src.settings.FOLDER_PREFIX_BLACKLIST:
                 if dir.startswith(prefix):
                     logger.info('Blacklisted folder: %s' % os.path.join(dirName, dir))
                     blacklisted = True
@@ -67,8 +67,8 @@ def run():
 
         for fname in fileList:
             fpath = os.path.join(dirName, fname)
-            if utils_fs.isfile(fpath, settings.MEDIA_FILE_EXTENSIONS):
-                for res in (settings.PREVIEW_MIN_RES, settings.PREVIEW_MAX_RES):
+            if utils_fs.isfile(fpath, src.settings.MEDIA_FILE_EXTENSIONS):
+                for res in (src.settings.PREVIEW_MIN_RES, src.settings.PREVIEW_MAX_RES):
                     logger.info('asset: %s' % fpath)
                     utils_preview.get_binary_and_mime(full_path=fpath, longest_edge_res=res, no_return=True)
 

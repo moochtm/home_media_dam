@@ -6,10 +6,9 @@ from flask_restplus import Namespace, Resource, inputs
 from flask import request
 import urlparse
 
-from api.core import utils_fs
-from api.data_models import folder_model
+from ..core import utils_fs
+from ..data_models import folder_model
 import settings
-
 
 api = Namespace('browse', description='browse folders')
 
@@ -72,7 +71,7 @@ class Browse(Resource):
                                               settings.FOLDER_PREFIX_BLACKLIST,
                                               include_subfolders=args['flatten_folders'])
             for folder in subfolders:
-                folder = folder[len(settings.HOMEMEDIA_ROOT)+1:]
+                folder = folder[len(settings.HOMEMEDIA_ROOT) + 1:]
                 response['children'].append({'path': folder})
             # sort subfolders by name
             response['children'] = sorted(response['children'], key=lambda i: (i['path'].lower()))

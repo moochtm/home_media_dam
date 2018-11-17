@@ -60,7 +60,7 @@ def get_cache_filename(full_path, longest_edge_res):
 ##################################################################
 
 def main():
-    import settings
+    from src import settings
 
     full_path = '/Users/home/Pictures/test.CR2'
     longest_edge_res = settings.PREVIEW_MIN_RES

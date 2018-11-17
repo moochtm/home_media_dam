@@ -6,10 +6,9 @@ from flask_restplus import Namespace, Resource, inputs
 from flask import request, send_file
 import urlparse
 
-from api.core import utils_fs, utils_preview
-from api.data_models import folder_model
+from ..core import utils_preview, utils_fs
+from ..data_models import folder_model
 import settings
-
 
 api = Namespace('preview', description='get preview image for asset')
 
