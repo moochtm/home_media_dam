@@ -1,0 +1,586 @@
+2018-10-30 13:06:51,410 - [INFO] __main__ [app_api, line 31]: Initialising app
+2018-10-30 13:06:51,435 - [INFO] werkzeug [_internal, line 88]:  * Running on http://127.0.0.1:6500/ (Press CTRL+C to quit)
+2018-10-30 13:06:51,437 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-10-30 13:06:51,745 - [INFO] __main__ [app_api, line 31]: Initialising app
+2018-10-30 13:06:51,760 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-10-30 13:06:51,781 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 119-235-542
+2018-10-30 13:07:22,914 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:07:22,917 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:07:22,917 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:07:22,917 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:07:22,921 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:07:22,922 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:07:22,926 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:07:22] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:07:23,054 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:07:23,054 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:07:23,098 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:07:23] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:10:45,809 - [INFO] __main__ [app_api, line 31]: Initialising app
+2018-10-30 13:10:45,830 - [INFO] werkzeug [_internal, line 88]:  * Running on http://127.0.0.1:6500/ (Press CTRL+C to quit)
+2018-10-30 13:10:45,831 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-10-30 13:10:46,158 - [INFO] __main__ [app_api, line 31]: Initialising app
+2018-10-30 13:10:46,168 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-10-30 13:10:46,183 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 119-235-542
+2018-10-30 13:12:30,947 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/app_api.py', reloading
+2018-10-30 13:12:30,979 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-10-30 13:12:31,323 - [INFO] __main__ [app_api, line 31]: ================================================================
+2018-10-30 13:12:31,323 - [INFO] __main__ [app_api, line 32]: ================================================================
+2018-10-30 13:12:31,324 - [INFO] __main__ [app_api, line 33]: ================================================================
+2018-10-30 13:12:31,324 - [INFO] __main__ [app_api, line 34]: Initialising app
+2018-10-30 13:12:31,334 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-10-30 13:12:31,348 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 119-235-542
+2018-10-30 13:13:55,182 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:13:55,184 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:13:55,187 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:13:55] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:13:55,965 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:13:55,966 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:13:55,966 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:13:55,966 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:13:55,968 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:13:55,968 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:13:55,969 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:13:55] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:13:57,117 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: test
+2018-10-30 13:13:57,118 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: [u'/Users/Home/Pictures/test/test.jpg']
+2018-10-30 13:13:57,118 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: [u'/Users/Home/Pictures/test/test.jpg']
+2018-10-30 13:13:57,118 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: test/test.jpg
+2018-10-30 13:13:57,119 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: test/test.jpg
+2018-10-30 13:13:57,119 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: test/test.jpg
+2018-10-30 13:13:57,120 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:13:57] "GET /mediafolder/test HTTP/1.1" 200 -
+2018-10-30 13:13:57,135 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: test/test.jpg
+2018-10-30 13:13:57,135 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: test/test.jpg
+2018-10-30 13:13:57,156 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:13:57] "GET /mediafile/content/test/test.jpg?w=400 HTTP/1.1" 200 -
+2018-10-30 13:14:01,990 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:14:01,991 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:14:01,991 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:14:01,991 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:14:01,992 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:14:01,992 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:14:01,993 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:01] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:14:15,751 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: Lightroom
+2018-10-30 13:14:15,754 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:14:15,755 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:15] "GET /mediafolder/Lightroom HTTP/1.1" 200 -
+2018-10-30 13:14:17,703 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: Lightroom/Lightroom 5 Catalog-2-2 Smart Previews.lrdata
+2018-10-30 13:14:17,705 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:14:17,706 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:17] "GET /mediafolder/Lightroom/Lightroom%205%20Catalog-2-2%20Smart%20Previews.lrdata HTTP/1.1" 200 -
+2018-10-30 13:14:18,488 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: Lightroom/Lightroom 5 Catalog-2-2 Smart Previews.lrdata/1
+2018-10-30 13:14:18,489 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:14:18,490 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:18] "GET /mediafolder/Lightroom/Lightroom%205%20Catalog-2-2%20Smart%20Previews.lrdata/1 HTTP/1.1" 200 -
+2018-10-30 13:14:19,119 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: Lightroom/Lightroom 5 Catalog-2-2 Smart Previews.lrdata
+2018-10-30 13:14:19,120 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:14:19,121 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:19] "GET /mediafolder/Lightroom/Lightroom%205%20Catalog-2-2%20Smart%20Previews.lrdata HTTP/1.1" 200 -
+2018-10-30 13:14:19,663 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: Lightroom
+2018-10-30 13:14:19,664 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:14:19,665 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:19] "GET /mediafolder/Lightroom HTTP/1.1" 200 -
+2018-10-30 13:14:20,688 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:14:20,689 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:14:20,689 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:14:20,689 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:14:20,691 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:14:20,691 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:14:20,692 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:14:20] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:25:44,441 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:25:44,443 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:25:44,443 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:25:44,443 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:25:44,444 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:25:44,445 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:25:44,446 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:44] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:25:48,562 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:25:48,563 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:25:48,565 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:48] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:25:50,209 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL
+2018-10-30 13:25:50,210 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:25:50,211 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafolder/_MEDIA/00_EXTERNAL HTTP/1.1" 200 -
+2018-10-30 13:25:50,816 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL/Temp
+2018-10-30 13:25:50,821 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: [u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2']
+2018-10-30 13:25:50,821 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: [u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2']
+2018-10-30 13:25:50,821 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:25:50,821 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:25:50,821 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:25:50,822 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:25:50,823 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:25:50,823 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:25:50,823 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:25:50,823 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:25:50,826 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:25:50,826 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:25:50,826 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:25:50,826 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:25:50,827 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:25:50,827 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:25:50,827 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:25:50,827 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:25:50,828 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:25:50,828 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:25:50,828 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:25:50,828 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:25:50,828 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:25:50,829 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:25:50,829 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:25:50,829 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:25:50,830 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:25:50,830 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:25:50,830 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:25:50,831 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:25:50,831 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:25:50,831 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:25:50,831 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:25:50,832 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:25:50,832 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:25:50,832 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:25:50,833 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:25:50,833 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:25:50,834 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:25:50,834 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:25:50,836 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafolder/_MEDIA/00_EXTERNAL/Temp HTTP/1.1" 200 -
+2018-10-30 13:25:50,897 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:25:50,897 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:25:50,899 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:25:50,900 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:25:50,902 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:25:50,903 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:25:50,904 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:25:50,905 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:25:50,904 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:25:50,908 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:25:50,909 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:25:50,923 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:25:50,923 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,935 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,942 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,943 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:25:50,952 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,958 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,962 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,964 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:25:50,963 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:25:50,965 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:25:50,969 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:25:50,970 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:25:50,981 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,984 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:25:50,991 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:50,992 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:25:50,993 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:25:50,993 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:25:50,995 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:25:50,995 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:25:50,995 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:25:51,000 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:50] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:51,001 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:25:51,022 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:51,023 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:51,029 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:25:51,030 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:25:51,035 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:25:51,046 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:51,048 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:51,048 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:25:51,057 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:25:51,063 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:25:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:26:02,960 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:26:02,962 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:26:02,962 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:26:02,962 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:26:02,963 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:26:02,964 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:26:02,965 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:26:02] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:28:29,950 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:28:29,951 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:28:29,952 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:28:29,952 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:28:29,953 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:28:29,953 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:28:29,954 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:28:29] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:28:49,300 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:28:49,302 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:28:49,302 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:28:49,302 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:28:49,303 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:28:49,303 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:28:49,305 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:28:49] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:29:49,334 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:29:49,336 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:29:49,336 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:29:49,336 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:49,338 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:49,338 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:49,339 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:29:49] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:29:49,426 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:49,427 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:49,437 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:29:49] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:29:58,778 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:29:58,779 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:29:58,779 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:29:58,780 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:58,781 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:58,781 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:58,782 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:29:58] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:29:58,848 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:58,848 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:29:58,857 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:29:58] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:29:59,733 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:29:59,734 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:29:59,735 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:29:59] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:30:00,836 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL
+2018-10-30 13:30:00,836 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:30:00,838 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:00] "GET /mediafolder/_MEDIA/00_EXTERNAL HTTP/1.1" 200 -
+2018-10-30 13:30:01,322 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL/Temp
+2018-10-30 13:30:01,324 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: [u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2']
+2018-10-30 13:30:01,324 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: [u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2']
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:30:01,325 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:30:01,326 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:30:01,326 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:30:01,326 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:30:01,326 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:30:01,326 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:30:01,327 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:30:01,327 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:30:01,327 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:30:01,330 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:30:01,330 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:30:01,331 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:30:01,331 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:30:01,331 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:30:01,332 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:30:01,332 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:30:01,332 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:30:01,332 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:30:01,332 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:30:01,333 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:30:01,333 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:30:01,333 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:30:01,333 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:30:01,334 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:30:01,334 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:30:01,334 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:30:01,334 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:30:01,334 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:30:01,334 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:30:01,335 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:30:01,335 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:30:01,335 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:30:01,335 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:30:01,335 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:30:01,335 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:30:01,336 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:30:01,336 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:30:01,336 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:30:01,336 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:30:01,338 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafolder/_MEDIA/00_EXTERNAL/Temp HTTP/1.1" 200 -
+2018-10-30 13:30:01,422 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:30:01,422 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:30:01,430 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:30:01,430 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:30:01,433 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:30:01,444 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:30:01,436 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:30:01,451 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:30:01,453 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:30:01,453 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:30:01,455 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,464 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,481 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,497 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,506 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,510 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:30:01,510 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:30:01,527 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,536 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:30:01,539 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:30:01,540 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:30:01,539 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:30:01,546 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:30:01,546 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:30:01,548 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:30:01,549 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:30:01,553 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:30:01,554 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:30:01,558 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,558 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:30:01,559 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:30:01,568 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,577 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,580 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:30:01,602 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:30:01,601 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,588 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,608 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,609 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:30:01,622 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:30:01,631 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,632 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:30:01,632 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:30:01,651 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:30:01,652 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:30:01] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:31:36,243 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:31:36,244 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:31:36,244 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:31:36,244 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:31:36,246 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:31:36,246 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:31:36,247 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:31:36] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:31:36,320 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:31:36,320 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:31:36,331 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:31:36] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:18,635 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:32:18,637 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:18,637 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:18,637 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:18,638 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:18,638 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:18,639 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:18] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:32:18,698 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:18,698 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:18,708 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:18] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:24,875 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:32:24,876 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:24,877 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:24,877 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:24,878 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:24,878 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:24,879 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:24] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:32:24,958 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:24,959 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:24,968 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:24] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:42,549 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:32:42,551 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:42,551 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:42,551 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:42,552 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:42,552 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:42,552 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:42] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:32:42,638 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:42,639 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:42,651 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:42] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:44,826 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:32:44,829 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:44,829 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:44,829 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:44,830 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:44,830 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:44,831 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:44] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:32:44,901 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:44,901 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:44,957 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:44] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:49,100 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:32:49,101 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:32:49,103 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:49] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:32:50,873 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL
+2018-10-30 13:32:50,874 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:32:50,876 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:50] "GET /mediafolder/_MEDIA/00_EXTERNAL HTTP/1.1" 200 -
+2018-10-30 13:32:51,584 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL/Temp
+2018-10-30 13:32:51,586 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: [u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2']
+2018-10-30 13:32:51,586 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: [u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2', u'/Users/Home/Pictures/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2']
+2018-10-30 13:32:51,586 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:32:51,587 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:32:51,587 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:32:51,587 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:32:51,587 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:32:51,587 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:32:51,587 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:32:51,588 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:32:51,588 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:32:51,588 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:32:51,588 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:32:51,588 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:32:51,589 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:32:51,589 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:32:51,589 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:32:51,591 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:32:51,591 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:32:51,592 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:32:51,592 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:32:51,592 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:32:51,592 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:32:51,593 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:32:51,593 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:32:51,593 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:32:51,593 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:32:51,594 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:32:51,594 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:32:51,594 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:32:51,594 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:32:51,595 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:32:51,595 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:32:51,596 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:32:51,596 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:32:51,596 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:32:51,596 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:32:51,597 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:32:51,597 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:32:51,597 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:32:51,597 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:32:51,597 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:32:51,598 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:32:51,598 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:32:51,598 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:32:51,598 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:32:51,598 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:32:51,599 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafolder/_MEDIA/00_EXTERNAL/Temp HTTP/1.1" 200 -
+2018-10-30 13:32:51,655 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:32:51,655 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2
+2018-10-30 13:32:51,657 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:32:51,657 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2
+2018-10-30 13:32:51,659 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:32:51,659 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2
+2018-10-30 13:32:51,662 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:32:51,663 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2
+2018-10-30 13:32:51,665 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:32:51,666 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2
+2018-10-30 13:32:51,682 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5072.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,687 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5064.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,692 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5065.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,693 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5070.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,697 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5071.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,702 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:32:51,702 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2
+2018-10-30 13:32:51,720 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5066.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,737 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:32:51,738 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2
+2018-10-30 13:32:51,739 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:32:51,740 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:32:51,741 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2
+2018-10-30 13:32:51,741 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2
+2018-10-30 13:32:51,745 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:32:51,748 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:32:51,747 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:32:51,749 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2
+2018-10-30 13:32:51,749 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2
+2018-10-30 13:32:51,752 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2
+2018-10-30 13:32:51,758 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5067.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,762 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5073.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,767 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5063.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,774 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5074.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,787 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5060.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,794 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5062.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,800 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:32:51,800 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2
+2018-10-30 13:32:51,805 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:32:51,806 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2
+2018-10-30 13:32:51,811 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:32:51,811 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: _MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2
+2018-10-30 13:32:51,819 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5061.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,834 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5068.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:51,847 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:51] "GET /mediafile/content/_MEDIA/00_EXTERNAL/Temp/canon_7d2.2018-07-01.038A5069.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:32:55,179 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA/00_EXTERNAL
+2018-10-30 13:32:55,180 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:32:55,182 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:55] "GET /mediafolder/_MEDIA/00_EXTERNAL HTTP/1.1" 200 -
+2018-10-30 13:32:55,683 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:32:55,684 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:32:55,686 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:55] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:32:56,506 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:32:56,508 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:56,508 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:32:56,508 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:56,510 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:56,510 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:56,511 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:56] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:32:56,535 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:56,536 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:32:56,546 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:32:56] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:33:13,570 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:33:13,572 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:13,572 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:13,572 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:13,574 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:13,574 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:13,576 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:13] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:33:13,654 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:13,654 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:13,664 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:13] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:33:24,479 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:33:24,480 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:24,481 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:24,481 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:24,482 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:24,483 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:24,484 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:24] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:33:24,566 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:24,567 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:24,578 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:24] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:33:38,930 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:33:38,931 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:38,931 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:38,932 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:38,933 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:38,933 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:38,934 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:38] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:33:38,989 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:38,990 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:38,999 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:38] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:33:42,566 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:33:42,567 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:33:42,568 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:42] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:33:55,562 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:33:55,563 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:55,563 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:33:55,563 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:55,564 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:55,564 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:55,565 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:55] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:33:55,635 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:55,635 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:33:55,644 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:55] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:33:59,668 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:33:59,669 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:33:59,670 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:33:59] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:34:00,742 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:34:00,746 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:34:00,746 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:34:00,746 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:34:00,750 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:34:00,751 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:34:00,753 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:34:00] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:35:55,188 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:35:55,190 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:35:55,190 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:35:55,190 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:35:55,191 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:35:55,192 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:35:55,193 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:35:55] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:35:55,247 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:35:55,247 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:35:55,258 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:35:55] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:38:39,225 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:38:39,227 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:38:39,227 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:38:39,227 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:39,228 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:39,228 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:39,229 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:38:39] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:38:39,287 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:39,287 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:39,297 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:38:39] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:38:54,786 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:38:54,789 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:38:54,789 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:38:54,789 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:54,791 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:54,791 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:54,793 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:38:54] "GET /mediafolder/ HTTP/1.1" 200 -
+2018-10-30 13:38:54,865 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 294]: path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:54,866 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:54,875 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:38:54] "GET /mediafile/content/canon_7d2.2018-07-01.038A5075.CR2?w=400 HTTP/1.1" 200 -
+2018-10-30 13:38:56,231 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: _MEDIA
+2018-10-30 13:38:56,232 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: []
+2018-10-30 13:38:56,234 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:38:56] "GET /mediafolder/_MEDIA HTTP/1.1" 200 -
+2018-10-30 13:38:57,111 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 143]: path: 
+2018-10-30 13:38:57,112 - [DEBUG] api.apis.ns_media_folder [ns_media_folder, line 62]: mfs: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:38:57,113 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 126]: New MediaFiles, paths: ['/Users/Home/Pictures/canon_7d2.2018-07-01.038A5075.CR2']
+2018-10-30 13:38:57,113 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 34]: New MediaFile, path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:57,114 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 158]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:57,114 - [DEBUG] api.apis.ns_media_file [ns_media_file, line 167]: URL file path: canon_7d2.2018-07-01.038A5075.CR2
+2018-10-30 13:38:57,115 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [30/Oct/2018 13:38:57] "GET /mediafolder/ HTTP/1.1" 200 -

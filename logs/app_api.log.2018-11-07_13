@@ -1,0 +1,49 @@
+2018-11-07 13:02:56,459 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-07 13:02:57,068 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-07 13:02:57,068 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-07 13:02:57,068 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-07 13:02:57,068 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-07 13:02:57,096 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-07 13:02:57,121 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-07 13:03:30,733 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_fs.py', reloading
+2018-11-07 13:03:30,811 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-07 13:03:31,347 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-07 13:03:31,347 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-07 13:03:31,347 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-07 13:03:31,347 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-07 13:03:31,379 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-07 13:03:31,410 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-07 13:05:12,088 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_fs.py', reloading
+2018-11-07 13:05:12,135 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-07 13:05:12,623 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-07 13:05:12,623 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-07 13:05:12,623 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-07 13:05:12,623 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-07 13:05:12,644 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-07 13:05:12,661 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-07 13:06:52,277 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_fs.py', reloading
+2018-11-07 13:06:52,316 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-07 13:06:52,699 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-07 13:06:52,699 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-07 13:06:52,699 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-07 13:06:52,699 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-07 13:06:52,715 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-07 13:06:52,735 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-07 13:07:12,060 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_fs.py', reloading
+2018-11-07 13:07:12,086 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-07 13:07:12,362 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-07 13:07:12,362 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-07 13:07:12,363 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-07 13:07:12,363 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-07 13:07:12,373 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-07 13:07:12,387 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-07 13:08:32,701 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_fs.py', reloading
+2018-11-07 13:08:32,745 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-07 13:08:33,221 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-07 13:08:33,221 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-07 13:08:33,221 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-07 13:08:33,221 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-07 13:08:33,240 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-07 13:08:33,256 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-07 13:08:49,583 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_fs.py', reloading
+2018-11-07 13:08:49,619 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+    <title>Home Media</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons' rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/vuetify/dist/vuetify.min.css" rel="stylesheet">
+    <link rel="icon" href="static/images/icons/icon-128x128.png">
+    <link rel="manifest" href="static/manifest.json">
+    <link rel="apple-touch-icon" sizes="180x180" href="static/images/icons/icon-192x192.png">
+</head>
+
+<body>
+
+    <div id="app">
+        <v-app dark>
+            <spa-inbox></spa-inbox>
+            <!--<v-footer app fixed></v-footer>-->
+        </v-app>
+    </div>
+
+    <!-- Vue.js scripts here -->
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.22.2/moment.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+    <script src="https://unpkg.com/vue-router/dist/vue-router.js"></script>
+    <!-- Vuetify scripts here -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vuetify/1.3.7/vuetify.min.js"></script>
+    <!-- Vue Pages and Components here -->
+    <script src='static/vue/components/albums.vue.js'></script>
+    <script src='static/vue/components/inbox.vue.js'></script>
+    <!-- Other scripts here -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script>
+        Vue.prototype.$api_endpoint = '(( jinja_var_api_endpoint ))'.replace(/&amp;/g, "&");
+        new Vue({
+            el: '#app'
+        })
+    </script>
+
+</body>
+
+</html>

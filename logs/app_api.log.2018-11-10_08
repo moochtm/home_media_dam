@@ -1,0 +1,290 @@
+2018-11-10 08:30:38,605 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 08:30:39,304 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-10 08:30:39,305 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-10 08:30:39,305 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 08:30:39,305 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-10 08:30:39,323 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 08:30:39,343 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 08:38:03,520 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 08:38:03,568 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 08:38:04,075 - [INFO] __main__ [app_api, line 42]: ================================================================
+2018-11-10 08:38:04,075 - [INFO] __main__ [app_api, line 43]: ================================================================
+2018-11-10 08:38:04,075 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 08:38:04,075 - [INFO] __main__ [app_api, line 45]: Initialising app
+2018-11-10 08:38:04,093 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 08:38:04,111 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:14:47,809 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:14:47,809 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:14:47,810 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:14:47,810 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:14:47,820 - [INFO] werkzeug [_internal, line 88]:  * Running on http://127.0.0.1:6500/ (Press CTRL+C to quit)
+2018-11-10 09:14:47,821 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:14:48,126 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:14:48,126 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:14:48,126 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:14:48,126 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:14:48,136 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:14:48,151 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:14:49,925 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:14:49] "GET / HTTP/1.1" 200 -
+2018-11-10 09:14:50,021 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:14:50] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2018-11-10 09:14:50,027 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:14:50] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2018-11-10 09:14:50,036 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:14:50] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2018-11-10 09:14:50,042 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:14:50] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+2018-11-10 09:14:50,791 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:14:50] "GET /swagger.json HTTP/1.1" 200 -
+2018-11-10 09:15:05,896 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': False}
+2018-11-10 09:15:05,900 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:15:05] "GET /preview?path=test.CR2&max_quality=false HTTP/1.1" 200 -
+2018-11-10 09:15:26,879 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/endpoints/ns_preview.py', reloading
+2018-11-10 09:15:26,919 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:15:27,332 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:15:27,332 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:15:27,332 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:15:27,332 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:15:27,342 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:15:27,356 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:15:29,984 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': False}
+2018-11-10 09:15:29,985 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:15:29] "GET /preview?path=test.CR2&max_quality=false HTTP/1.1" 200 -
+2018-11-10 09:15:47,909 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': True}
+2018-11-10 09:15:47,909 - [DEBUG] api.core.utils_preview [utils_preview, line 26]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:15:49,002 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:15:49] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:16:34,339 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': True}
+2018-11-10 09:16:34,340 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:16:34] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:16:34,939 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': True}
+2018-11-10 09:16:34,940 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:16:34] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:16:41,762 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': False}
+2018-11-10 09:16:41,764 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:16:41] "GET /preview?path=test.CR2 HTTP/1.1" 200 -
+2018-11-10 09:16:51,245 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': True}
+2018-11-10 09:16:51,246 - [DEBUG] api.core.utils_preview [utils_preview, line 26]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:16:52,212 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:16:52] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:17:02,030 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': True}
+2018-11-10 09:17:02,031 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:17:02] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:17:33,579 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/endpoints/ns_preview.py', reloading
+2018-11-10 09:17:33,619 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:17:33,911 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:17:33,911 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:17:33,911 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:17:33,911 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:17:33,922 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:17:33,938 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:17:41,333 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 45]: {'path': 'test.CR2', 'max_quality': True}
+2018-11-10 09:17:41,333 - [DEBUG] api.core.utils_preview [utils_preview, line 26]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:17:42,338 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:17:42] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:20:05,871 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/endpoints/ns_preview.py', reloading
+2018-11-10 09:20:05,913 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:20:06,570 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:20:06,571 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:20:06,571 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:20:06,571 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:20:06,638 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:20:06,708 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:22:01,846 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_preview.py', reloading
+2018-11-10 09:22:01,910 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:22:02,510 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:22:02,511 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:22:02,511 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:22:02,511 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:22:02,544 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:22:02,579 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:24:09,215 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/endpoints/ns_preview.py', reloading
+2018-11-10 09:24:09,252 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:24:09,546 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:24:09,546 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:24:09,546 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:24:09,546 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:24:09,557 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:24:09,571 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:24:52,581 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'true'}
+2018-11-10 09:24:52,581 - [DEBUG] api.core.utils_preview [utils_preview, line 28]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:24:53,551 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:24:53] "GET /preview?path=test.CR2&max_quality=true&cache_bust=true HTTP/1.1" 200 -
+2018-11-10 09:25:44,309 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_preview.py', reloading
+2018-11-10 09:25:44,363 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:25:44,725 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:25:44,725 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:25:44,725 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:25:44,725 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:25:44,736 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:25:44,753 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:25:46,484 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'true'}
+2018-11-10 09:25:46,484 - [DEBUG] api.core.utils_preview [utils_preview, line 31]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:25:47,575 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:25:47] "GET /preview?path=test.CR2&max_quality=true&cache_bust=true HTTP/1.1" 200 -
+2018-11-10 09:25:51,371 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'true'}
+2018-11-10 09:25:51,371 - [DEBUG] api.core.utils_preview [utils_preview, line 31]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:25:52,334 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:25:52] "GET /preview?path=test.CR2&max_quality=true&cache_bust=true HTTP/1.1" 200 -
+2018-11-10 09:26:02,828 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': '182769178261987263123'}
+2018-11-10 09:26:02,828 - [DEBUG] api.core.utils_preview [utils_preview, line 31]: File not found in cache (test.CR2-2018-09-08-14-30-30-1920px.jpg)
+2018-11-10 09:26:03,809 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:26:03] "GET /preview?path=test.CR2&max_quality=true&cache_bust=182769178261987263123 HTTP/1.1" 200 -
+2018-11-10 09:26:19,786 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:26:19,788 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:26:19] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:26:25,474 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:26:25,475 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:26:25] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:27:16,448 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_preview.py', reloading
+2018-11-10 09:27:16,487 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:27:16,788 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:27:16,788 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:27:16,788 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:27:16,788 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:27:16,798 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:27:16,812 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:29:39,578 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:29:39,617 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:29:40,129 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:29:40,129 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:29:40,129 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:29:40,129 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:29:40,140 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:29:40,155 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:30:48,547 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/settings.py', reloading
+2018-11-10 09:30:48,573 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:30:48,901 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:30:48,902 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:30:48,902 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:30:48,902 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:30:48,912 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:30:48,928 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:34:23,878 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:34:23,919 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:34:24,596 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:34:24,596 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:34:24,596 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:34:24,596 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:34:24,607 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:34:24,636 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:34:58,544 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': False, 'cache_bust': 'False'}
+2018-11-10 09:34:58,545 - [DEBUG] api.core.utils_preview [utils_preview, line 24]: File not found in cache (test.mp4-2018-05-25-08-45-31-400px.jpg)
+2018-11-10 09:34:58,559 - [ERROR] api.restplus [restplus, line 19]: Command '"ffmpeg" -i "/Users/Home/Pictures/test.mp4-ss 00:00:01 -vframes 1 "/var/folders/t8/hz68ngjs2wx9yw7k5t50l9z00000gq/T/test.jpg"' returned non-zero exit status 2
+Traceback (most recent call last):
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/api/endpoints/ns_preview.py", line 66, in get
+    binary, mime = utils_preview.get_binary_and_mime(full_path, longest_edge_res, cache_bust)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_preview.py", line 27, in get_binary_and_mime
+    binary = utils_images.get_jpeg_binary(full_path, longest_edge_res)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py", line 69, in get_jpeg_binary
+    subprocess.check_output(cmd, shell=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '"ffmpeg" -i "/Users/Home/Pictures/test.mp4-ss 00:00:01 -vframes 1 "/var/folders/t8/hz68ngjs2wx9yw7k5t50l9z00000gq/T/test.jpg"' returned non-zero exit status 2
+2018-11-10 09:34:58,567 - [ERROR] api.restplus [restplus, line 19]: 
+Traceback (most recent call last):
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_restplus/api.py", line 583, in error_router
+    return original_handler(e)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1695, in handle_user_exception
+    assert exc_value is e
+AssertionError
+2018-11-10 09:34:58,575 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:58] "GET /preview?path=test.mp4 HTTP/1.1" 500 -
+2018-11-10 09:34:58,638 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:58] "GET /preview?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-10 09:34:58,653 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:58] "GET /preview?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-10 09:34:58,654 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:58] "GET /preview?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-10 09:34:58,768 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:58] "GET /preview?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-10 09:34:58,934 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:58] "GET /preview?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-10 09:34:59,021 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:34:59] "GET /preview?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-10 09:35:18,625 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:35:18,653 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:35:19,044 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:35:19,044 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:35:19,045 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:35:19,045 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:35:19,066 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:35:19,094 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:35:21,494 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': False, 'cache_bust': 'False'}
+2018-11-10 09:35:21,494 - [DEBUG] api.core.utils_preview [utils_preview, line 24]: File not found in cache (test.mp4-2018-05-25-08-45-31-400px.jpg)
+2018-11-10 09:35:21,503 - [ERROR] api.restplus [restplus, line 19]: Command '"ffmpeg" -i "/Users/Home/Pictures/test.mp4 -ss 00:00:01 -vframes 1 "/var/folders/t8/hz68ngjs2wx9yw7k5t50l9z00000gq/T/test.jpg"' returned non-zero exit status 2
+Traceback (most recent call last):
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_restplus/api.py", line 325, in wrapper
+    resp = resource(*args, **kwargs)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/views.py", line 88, in view
+    return self.dispatch_request(*args, **kwargs)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_restplus/resource.py", line 44, in dispatch_request
+    resp = meth(*args, **kwargs)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/api/endpoints/ns_preview.py", line 66, in get
+    binary, mime = utils_preview.get_binary_and_mime(full_path, longest_edge_res, cache_bust)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_preview.py", line 27, in get_binary_and_mime
+    binary = utils_images.get_jpeg_binary(full_path, longest_edge_res)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py", line 69, in get_jpeg_binary
+    subprocess.check_output(cmd, shell=True)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/subprocess.py", line 223, in check_output
+    raise CalledProcessError(retcode, cmd, output=output)
+CalledProcessError: Command '"ffmpeg" -i "/Users/Home/Pictures/test.mp4 -ss 00:00:01 -vframes 1 "/var/folders/t8/hz68ngjs2wx9yw7k5t50l9z00000gq/T/test.jpg"' returned non-zero exit status 2
+2018-11-10 09:35:21,507 - [ERROR] api.restplus [restplus, line 19]: 
+Traceback (most recent call last):
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_restplus/api.py", line 583, in error_router
+    return original_handler(e)
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/Users/home/Google_Drive/_CODE/python.homemedia_api/venv/lib/python2.7/site-packages/flask/app.py", line 1695, in handle_user_exception
+    assert exc_value is e
+AssertionError
+2018-11-10 09:35:21,513 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:21] "GET /preview?path=test.mp4 HTTP/1.1" 500 -
+2018-11-10 09:35:21,590 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:21] "GET /preview?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+2018-11-10 09:35:21,603 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:21] "GET /preview?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2018-11-10 09:35:21,608 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:21] "GET /preview?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2018-11-10 09:35:21,687 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:21] "GET /preview?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2018-11-10 09:35:21,727 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:21] "GET /preview?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2018-11-10 09:35:57,838 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:35:57,864 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:35:58,340 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:35:58,340 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:35:58,340 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:35:58,340 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:35:58,351 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:35:58,365 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:35:59,517 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': False, 'cache_bust': 'False'}
+2018-11-10 09:35:59,517 - [DEBUG] api.core.utils_preview [utils_preview, line 24]: File not found in cache (test.mp4-2018-05-25-08-45-31-400px.jpg)
+2018-11-10 09:35:59,921 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:35:59] "GET /preview?path=test.mp4 HTTP/1.1" 200 -
+2018-11-10 09:36:20,071 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:36:20,072 - [DEBUG] api.core.utils_preview [utils_preview, line 24]: File not found in cache (test.mp4-2018-05-25-08-45-31-1920px.jpg)
+2018-11-10 09:37:01,455 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:37:01,484 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:37:01,813 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:37:01,813 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:37:01,813 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:37:01,813 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:37:01,823 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:37:01,840 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:37:05,797 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:37:05,799 - [DEBUG] api.core.utils_preview [utils_preview, line 24]: File not found in cache (test.mp4-2018-05-25-08-45-31-1920px.jpg)
+2018-11-10 09:37:06,191 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:37:06] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:37:18,217 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:37:18,266 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:37:18,613 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:37:18,613 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:37:18,613 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:37:18,613 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:37:18,623 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:37:18,638 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:37:20,801 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:37:20,803 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:37:20] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:37:23,851 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:37:23,852 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:37:23] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:37:28,821 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading
+2018-11-10 09:37:28,848 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-10 09:37:29,491 - [INFO] __main__ [app_api, line 44]: ================================================================
+2018-11-10 09:37:29,492 - [INFO] __main__ [app_api, line 45]: ================================================================
+2018-11-10 09:37:29,492 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-10 09:37:29,492 - [INFO] __main__ [app_api, line 47]: Initialising app
+2018-11-10 09:37:29,502 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-10 09:37:29,522 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-10 09:37:30,169 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 09:37:30,170 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 09:37:30] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 09:38:15,413 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/core/utils_images.py', reloading

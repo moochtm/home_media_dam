@@ -1,0 +1,86 @@
+2018-11-11 18:25:27,985 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:25:27,988 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:25:27,989 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:25:29,696 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:25:29] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:25:29,757 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:25:29,758 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:25:29] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:26:01,597 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:26:01] "OPTIONS /trash?path=canon_7d2.2018-07-01.038A5065.CR2 HTTP/1.1" 200 -
+2018-11-11 18:26:01,600 - [DEBUG] api.endpoints.ns_trash [ns_trash, line 47]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'restore': None}
+2018-11-11 18:26:01,602 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:26:01] "PUT /trash?path=canon_7d2.2018-07-01.038A5065.CR2 HTTP/1.1" 200 -
+2018-11-11 18:26:01,624 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5071.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:26:01,627 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:26:01] "GET /preview?path=canon_7d2.2018-07-01.038A5071.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:26:03,176 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:26:03] "OPTIONS /trash?path=canon_7d2.2018-07-01.038A5065.CR2&restore=true HTTP/1.1" 200 -
+2018-11-11 18:26:03,182 - [DEBUG] api.endpoints.ns_trash [ns_trash, line 47]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'restore': True}
+2018-11-11 18:26:03,184 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:26:03] "PUT /trash?path=canon_7d2.2018-07-01.038A5065.CR2&restore=true HTTP/1.1" 200 -
+2018-11-11 18:28:44,402 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:28:44,406 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:28:44,406 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:28:46,108 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:28:46] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:28:46,208 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:28:46,209 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:28:46] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:29:12,706 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:29:12,710 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:29:12,710 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:29:14,390 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:29:14] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:29:14,490 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:29:14,490 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:29:14] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:29:46,796 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:29:46,801 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:29:46,801 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:29:48,512 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:29:48] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:29:48,615 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:29:48,616 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:29:48] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:30:05,363 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5071.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:30:05,364 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:30:05] "GET /preview?path=canon_7d2.2018-07-01.038A5071.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:30:06,125 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5075.jpg', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:30:06,128 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:30:06] "GET /preview?path=canon_7d2.2018-07-01.038A5075.jpg&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:30:06,870 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5074.jpg', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:30:06,873 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:30:06] "GET /preview?path=canon_7d2.2018-07-01.038A5074.jpg&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:30:47,776 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:30:47,780 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:30:47,780 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:30:49,519 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:30:49] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:30:49,696 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:30:49,699 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:30:49] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:31:03,512 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:31:03,515 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:31:03,515 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:31:05,188 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:31:05] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:31:05,313 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:31:05,314 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:31:05] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:31:52,846 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:31:52,849 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:31:52,849 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:31:54,578 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:31:54] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:31:54,715 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:31:54,717 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:31:54] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:32:15,652 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:32:15,656 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:32:15,656 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:32:17,353 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:32:17] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:32:17,486 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:32:17,489 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:32:17] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:32:35,647 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:32:35,651 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:32:35,651 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:32:37,366 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:32:37] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:32:37,498 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:32:37,500 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:32:37] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:34:21,626 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:34:21,629 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:34:21,629 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:34:23,452 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:34:23] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:34:23,587 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:34:23,589 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:34:23] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:36:06,639 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:36:06,643 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:36:06,643 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:36:08,343 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:36:08] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:36:08,474 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:36:08,474 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:36:08] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-11 18:36:30,969 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-11 18:36:30,971 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-11 18:36:30,972 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-11 18:36:32,728 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:36:32] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-11 18:36:32,872 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5065.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-11 18:36:32,873 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [11/Nov/2018 18:36:32] "GET /preview?path=canon_7d2.2018-07-01.038A5065.CR2&max_quality=true HTTP/1.1" 200 -

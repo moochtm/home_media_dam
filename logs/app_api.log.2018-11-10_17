@@ -1,0 +1,140 @@
+2018-11-10 17:59:24,170 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 17:59:24,172 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 17:59:24,172 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 17:59:25,839 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 17:59:25] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 17:59:25,896 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 17:59:25,896 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 17:59:25] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:02:00,682 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:02:00,684 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:02:00,684 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:02:02,399 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:02:02] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:02:02,458 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:02:02,458 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:02:02] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:03:14,590 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:03:14,592 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:03:14,592 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:03:16,311 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:03:16] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:03:16,370 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:03:16,371 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:03:16] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:04:22,942 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:04:22,943 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:04:22,944 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:04:24,682 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:04:24] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:04:24,741 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:04:24,742 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:04:24] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:04:50,482 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:04:50,483 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:04:50,484 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:04:52,218 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:04:52] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:04:52,282 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:04:52,283 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:04:52] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:07:00,351 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:07:00,352 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:07:00,352 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:07:02,256 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:07:02] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:07:02,318 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:07:02,319 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:07:02] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:09:32,117 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:09:32,119 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:09:32,119 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:09:33,841 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:09:33] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:09:33,904 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:09:33,905 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:09:33] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:12:49,579 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:12:49,581 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:12:49,581 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:12:51,295 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:12:51] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:12:51,356 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:12:51,359 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:12:51] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:13:50,458 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:13:50,459 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:13:50,460 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:13:52,235 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:13:52] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:13:52,303 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:13:52,304 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:13:52] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:15:03,977 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:15:03,978 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:15:03,979 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:15:05,800 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:15:05] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:15:05,866 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:15:05,867 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:15:05] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:15:24,140 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:15:24,142 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:15:24,142 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:15:25,841 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:15:25] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:15:25,917 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:15:25,918 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:15:25] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:15:53,283 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:15:53,285 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:15:53,285 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:15:54,983 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:15:54] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:15:55,067 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:15:55,068 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:15:55] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:16:34,677 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:16:34,679 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:16:34,679 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:16:36,356 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:16:36] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:16:36,421 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:16:36,422 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:16:36] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:16:58,472 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:16:58,473 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:16:58,474 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:17:00,197 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:17:00] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:17:00,265 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:17:00,266 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:17:00] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:21:33,858 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:21:33,860 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:21:33,860 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:21:35,534 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:21:35] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:21:35,599 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:21:35,599 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:21:35] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:25:51,537 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:25:51,539 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:25:51,539 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:25:53,254 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:25:53] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:25:53,317 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.MOV', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:25:53,318 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:25:53] "GET /preview?path=test.MOV&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:25:58,801 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:25:58] "OPTIONS /trash?path=test.MOV HTTP/1.1" 200 -
+2018-11-10 18:25:58,817 - [DEBUG] api.endpoints.ns_trash [ns_trash, line 47]: {'path': 'test.MOV', 'restore': None}
+2018-11-10 18:25:58,818 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:25:58] "PUT /trash?path=test.MOV HTTP/1.1" 200 -
+2018-11-10 18:26:48,042 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:26:48,043 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:26:48,043 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:26:49,770 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:26:49] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:26:49,834 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5060.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:26:49,837 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:26:49] "GET /preview?path=canon_7d2.2018-07-01.038A5060.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:26:55,741 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:26:55,744 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:26:55] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:26:57,948 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:26:57,953 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:26:57] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:26:58,370 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:26:58,371 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:26:58] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:26:58,596 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'canon_7d2.2018-07-01.038A5060.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:26:58,598 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:26:58] "GET /preview?path=canon_7d2.2018-07-01.038A5060.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:27:05,741 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:27:05] "OPTIONS /trash?path=canon_7d2.2018-07-01.038A5060.CR2 HTTP/1.1" 200 -
+2018-11-10 18:27:05,752 - [DEBUG] api.endpoints.ns_trash [ns_trash, line 47]: {'path': 'canon_7d2.2018-07-01.038A5060.CR2', 'restore': None}
+2018-11-10 18:27:05,755 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:27:05] "PUT /trash?path=canon_7d2.2018-07-01.038A5060.CR2 HTTP/1.1" 200 -
+2018-11-10 18:27:12,005 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:27:12,006 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:27:12,006 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:27:13,740 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:27:13] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:27:13,805 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.mp4', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:27:13,806 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:27:13] "GET /preview?path=test.mp4&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:27:27,207 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:27:27] "OPTIONS /trash?path=test.mp4 HTTP/1.1" 200 -
+2018-11-10 18:27:27,223 - [DEBUG] api.endpoints.ns_trash [ns_trash, line 47]: {'path': 'test.mp4', 'restore': None}
+2018-11-10 18:27:27,225 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:27:27] "PUT /trash?path=test.mp4 HTTP/1.1" 200 -
+2018-11-10 18:28:01,291 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:28:01,293 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:28:01,293 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:28:03,072 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:28:03] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:28:03,137 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test.CR2', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:28:03,138 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:28:03] "GET /preview?path=test.CR2&max_quality=true HTTP/1.1" 200 -
+2018-11-10 18:28:05,600 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:28:05] "OPTIONS /trash?path=test.CR2 HTTP/1.1" 200 -
+2018-11-10 18:28:05,616 - [DEBUG] api.endpoints.ns_trash [ns_trash, line 47]: {'path': 'test.CR2', 'restore': None}
+2018-11-10 18:28:05,619 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:28:05] "PUT /trash?path=test.CR2 HTTP/1.1" 200 -
+2018-11-10 18:28:12,797 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
+2018-11-10 18:28:12,798 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-10 18:28:12,798 - [INFO] api.core.utils_fs [utils_fs, line 231]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-10 18:28:14,562 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:28:14] "GET /browse?path=&flatten_folders=true HTTP/1.1" 200 -
+2018-11-10 18:28:14,626 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': 'test/test.jpg', 'max_quality': True, 'cache_bust': 'False'}
+2018-11-10 18:28:14,628 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [10/Nov/2018 18:28:14] "GET /preview?path=test/test.jpg&max_quality=true HTTP/1.1" 200 -

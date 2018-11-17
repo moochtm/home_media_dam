@@ -1,0 +1,29 @@
+2018-11-14 19:56:55,507 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-14 19:56:55,857 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-14 19:56:55,857 - [INFO] __main__ [app_api, line 47]: ================================================================
+2018-11-14 19:56:55,857 - [INFO] __main__ [app_api, line 48]: ================================================================
+2018-11-14 19:56:55,857 - [INFO] __main__ [app_api, line 49]: Initialising app
+2018-11-14 19:56:55,869 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-14 19:56:55,887 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-14 20:01:27,992 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/data_models.py', reloading
+2018-11-14 20:01:28,051 - [INFO] werkzeug [_internal, line 88]:  * Restarting with stat
+2018-11-14 20:01:28,540 - [INFO] __main__ [app_api, line 46]: ================================================================
+2018-11-14 20:01:28,540 - [INFO] __main__ [app_api, line 47]: ================================================================
+2018-11-14 20:01:28,540 - [INFO] __main__ [app_api, line 48]: ================================================================
+2018-11-14 20:01:28,540 - [INFO] __main__ [app_api, line 49]: Initialising app
+2018-11-14 20:01:28,551 - [WARNING] werkzeug [_internal, line 88]:  * Debugger is active!
+2018-11-14 20:01:28,566 - [INFO] werkzeug [_internal, line 88]:  * Debugger PIN: 262-750-570
+2018-11-14 20:02:33,502 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:33] "GET / HTTP/1.1" 200 -
+2018-11-14 20:02:33,664 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:33] "GET /swaggerui/swagger-ui.css HTTP/1.1" 200 -
+2018-11-14 20:02:33,677 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:33] "GET /swaggerui/swagger-ui-bundle.js HTTP/1.1" 200 -
+2018-11-14 20:02:33,682 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:33] "GET /swaggerui/droid-sans.css HTTP/1.1" 304 -
+2018-11-14 20:02:33,686 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:33] "GET /swaggerui/swagger-ui-standalone-preset.js HTTP/1.1" 200 -
+2018-11-14 20:02:34,219 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:34] "GET /swagger.json HTTP/1.1" 200 -
+2018-11-14 20:02:34,502 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:34] "GET /swaggerui/favicon-32x32.png HTTP/1.1" 304 -
+2018-11-14 20:02:34,510 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:34] "GET /swaggerui/favicon-16x16.png HTTP/1.1" 304 -
+2018-11-14 20:02:43,801 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '', 'include_assets': True, 'flatten_folders': False, 'include_folders': True}
+2018-11-14 20:02:43,802 - [INFO] api.core.utils_fs [utils_fs, line 227]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-14 20:02:43,802 - [INFO] api.core.utils_fs [utils_fs, line 227]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-14 20:02:43,802 - [INFO] api.core.utils_fs [utils_fs, line 254]: Blacklisted folder: /Users/Home/Pictures/@eadir
+2018-11-14 20:02:43,802 - [INFO] api.core.utils_fs [utils_fs, line 254]: Blacklisted folder: /Users/Home/Pictures/.TEST
+2018-11-14 20:02:43,807 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 20:02:43] "GET /browse?include_folders=true&include_assets=true&flatten_folders=false HTTP/1.1" 200 -

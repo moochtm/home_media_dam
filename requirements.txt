@@ -1,0 +1,14 @@
+aniso8601==4.0.1
+Click==7.0
+enum34==1.1.6
+Flask==1.0.2
+Flask-Cors==3.0.7
+flask-restplus==0.12.1
+functools32==3.2.3.post2
+itsdangerous==1.1.0
+Jinja2==2.10
+jsonschema==2.6.0
+MarkupSafe==1.1.0
+pytz==2018.7
+six==1.11.0
+Werkzeug==0.14.1
