@@ -87,7 +87,7 @@ def main(root_path, dummy_run):
 
 if __name__ == "__main__":
 
-    root_path = '/Users/home/Pictures/_inbox'
+    root_path = '/Users/home/Pictures/ORIGINALS/Google Photos Backup'
 
     main(root_path, dummy_run=True)
 
