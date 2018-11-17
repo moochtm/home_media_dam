@@ -6,10 +6,7 @@
 import logging
 log = logging.getLogger(__name__)
 
-import json
-
-from datetime import datetime
-from thirdparty import exiftool
+from src.thirdparty import exiftool
 
 
 class ExifToolError(Exception):
