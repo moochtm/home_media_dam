@@ -1,3 +1,11 @@
+import os, subprocess, io, tempfile
+from PIL import ImageOps, Image as PILImage
+import json
+
+import settings
+import utils_fs
+import utils_exif
+
 ######################################################################
 # class for working directly with images
 ######################################################################
@@ -5,13 +13,6 @@
 import logging
 
 log = logging.getLogger(__name__)
-
-import os, subprocess, io, tempfile
-from PIL import ImageOps, Image as PILImage, ImageDraw as PILImageDraw
-import json
-
-import settings
-import utils_fs, utils_exif
 
 
 class MissingImage(Exception):

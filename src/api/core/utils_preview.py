@@ -1,8 +1,11 @@
 
+import utils_fs
+import utils_cache
+import utils_images
+
 import logging
 log = logging.getLogger(__name__)
 
-import utils_fs, utils_cache, utils_images
 
 def get_binary_and_mime(full_path, longest_edge_res, cache_bust=False, no_return=False):
     # get binary and mime for sending.
@@ -53,11 +56,10 @@ def get_cache_filename(full_path, longest_edge_res):
 
     return cache_name
 
-
-
 ##################################################################
 # tests
 ##################################################################
+
 
 def main():
     import settings
@@ -67,7 +69,7 @@ def main():
 
     print get_binary_and_mime(full_path, longest_edge_res)
 
-    #print get_metadata_batch(['/Users/Home/Pictures/test.cr2'])
+    # print get_metadata_batch(['/Users/Home/Pictures/test.cr2'])
 
 
 if __name__ == "__main__":

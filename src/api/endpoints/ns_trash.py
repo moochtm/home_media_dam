@@ -1,13 +1,10 @@
+from flask_restplus import Namespace, Resource, inputs
+
+from src.api.core import utils_fs
+import settings
+
 import logging
 log = logging.getLogger(__name__)
-
-
-from flask_restplus import Namespace, Resource, inputs
-from flask import request
-import urlparse
-
-from ..core import utils_fs
-import settings
 
 api = Namespace('trash', description='trash files')
 

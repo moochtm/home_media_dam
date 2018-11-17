@@ -1,15 +1,10 @@
+from flask_restplus import Namespace, Resource, inputs
+
+from src.api.data_models import init_model
+import settings
+
 import logging
 log = logging.getLogger(__name__)
-
-
-from flask_restplus import Namespace, Resource, inputs
-from flask import request
-import urlparse
-
-from ..core import utils_fs
-from ..data_models import init_model
-
-import settings
 
 api = Namespace('init', description='pass init variables to web')
 

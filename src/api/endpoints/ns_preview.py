@@ -1,14 +1,13 @@
-import logging
-log = logging.getLogger(__name__)
-
-
 from flask_restplus import Namespace, Resource, inputs
 from flask import request, send_file
 import urlparse
 
-from ..core import utils_preview, utils_fs
-from ..data_models import folder_model
+from src.api.core import utils_preview
+from src.api.core import utils_fs
 import settings
+
+import logging
+log = logging.getLogger(__name__)
 
 api = Namespace('preview', description='get preview image for asset')
 

@@ -1,12 +1,14 @@
 
+from src.thirdparty import exiftool
+
+import settings
+
 #######################################################################################
 # Helper functions for working directly with media file metadata (inc. embedded images)
 #######################################################################################
 
 import logging
 log = logging.getLogger(__name__)
-
-from src.thirdparty import exiftool
 
 
 class ExifToolError(Exception):
@@ -30,7 +32,7 @@ def write_metadata_batch(requests):
     """
     Uses exiftool to write metadata to files.
 
-    :param request: list of dicts in form:
+    :param requests: list of dicts in form:
     {
         'path': (string, path to file to write to),
         'metadata':

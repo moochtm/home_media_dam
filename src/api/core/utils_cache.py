@@ -1,12 +1,12 @@
-
-import logging
-log = logging.getLogger(__name__)
-
-import os, io
+import os
+import io
 
 import errno
 import settings
 import utils_fs
+
+import logging
+log = logging.getLogger(__name__)
 
 
 def get_file_binary(filename):
