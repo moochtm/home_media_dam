@@ -7,13 +7,13 @@ from logging.handlers import TimedRotatingFileHandler
 from flask import Flask
 from flask_cors import CORS
 
-from api.endpoints.ns_move import api as ns5
-from api.endpoints.ns_browse import api as ns6
-from api.endpoints.ns_trash import api as ns7
-from api.endpoints.ns_preview import api as ns8
-from api.endpoints.ns_init import api as ns9
+from src.api.endpoints.ns_move import api as ns5
+from src.api.endpoints.ns_browse import api as ns6
+from src.api.endpoints.ns_trash import api as ns7
+from src.api.endpoints.ns_preview import api as ns8
+from src.api.endpoints.ns_init import api as ns9
 
-from api.restplus import api
+from src.api.restplus import api
 import settings
 
 ################################################################################

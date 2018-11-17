@@ -1,7 +1,7 @@
 
 # import (1) python built-in, (2) downloaded 3rd party, (3) own
 
-import datetime, time, os, json
+import time, os
 import inspect
 import logging
 from logging.handlers import TimedRotatingFileHandler
@@ -9,7 +9,7 @@ from logging.handlers import TimedRotatingFileHandler
 import src.thirdparty.exiftool as exiftool
 import src.thirdparty.sortphotos as sortphotos
 
-from src import settings
+import settings
 from src.api.core import utils_fs
 
 ################################################################################
