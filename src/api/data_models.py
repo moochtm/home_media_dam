@@ -1,6 +1,7 @@
 from flask_restplus import fields
 
 from core import utils_fs
+from core import utils_preview
 from restplus import api
 import settings
 
@@ -28,10 +29,17 @@ class Children(fields.Raw):
 
 class LightboxUrl(fields.Raw):
     def format(self, value):
-        split_url = urlparse.urlsplit(request.url)
-        path = '/preview'
-        query = 'path=%s&max_quality=true' % urllib.quote(value)
-        return urlparse.urlunsplit((split_url.scheme, split_url.netloc, path, query, ''))
+        full_path = utils_fs.join_path(settings.HOMEMEDIA_ROOT, value)
+        # get constructed cache filename
+        cache_filename = utils_preview.get_cache_filename(full_path, settings.PREVIEW_MAX_RES)
+
+        # get year from file createdDate
+        year = utils_fs.get_creation_year(full_path)
+
+        scheme = settings.PREVIEW_SERVER_SCHEME
+        netloc = settings.PREVIEW_SERVER_NETLOC
+        path = '/%s/%s/%s' % (settings.PREVIEW_SERVER_PATH, year, cache_filename)
+        return urlparse.urlunsplit((scheme, netloc, path, '', ''))
 
 
 class MoveUrl(fields.Raw):
