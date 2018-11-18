@@ -22,15 +22,14 @@ def get_binary_and_mime(full_path, longest_edge_res, cache_bust=False, no_return
 
         response = utils_cache.check_file_exists(filename=cache_filename, year=year)
 
-        if response == True and not no_return:
+        if response and not no_return:
             # (try to) get pre-cached file, as long as we're not cache-busting
-            log.info('Generating cache file: %s' % cache_filename)
             response = utils_cache.get_file_binary(cache_filename)
 
     if not response:
 
         # if there was no pre-cached file...
-        log.debug('File not found in cache (%s)' % cache_filename)
+        log.info('File not found in cache (%s)' % cache_filename)
 
         # get a generated binary and mime to return
         response = utils_images.get_jpeg_binary(full_path, longest_edge_res)

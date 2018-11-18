@@ -1,4 +1,4 @@
-11-17 21:44 - [INFO] werkzeug [_internal, line 88]:  * Running on http://127.0.0.1:6502/ (Press CTRL+C to quit)
+11-18 08:37 - [INFO] werkzeug [_internal, line 88]:  * Running on http://127.0.0.1:6502/ (Press CTRL+C to quit)
 atten_folders=false
  * Serving Flask app "app_web" (lazy loading)
  * Environment: production
