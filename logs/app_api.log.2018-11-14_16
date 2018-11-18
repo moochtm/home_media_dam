@@ -1,5 +1,0 @@
-2018-11-14 19:41:16,523 - [DEBUG] api.endpoints.ns_browse [ns_browse, line 49]: {'path': '_inbox', 'include_assets': True, 'flatten_folders': True, 'include_folders': True}
-2018-11-14 19:41:16,545 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 19:41:16] "GET /browse?path=_inbox&flatten_folders=true HTTP/1.1" 200 -
-2018-11-14 19:41:16,706 - [DEBUG] api.endpoints.ns_preview [ns_preview, line 46]: {'path': '_inbox/canon_7d2.2018-07-01.038A5075.jpg', 'max_quality': True, 'cache_bust': 'False'}
-2018-11-14 19:41:16,709 - [INFO] werkzeug [_internal, line 88]: 127.0.0.1 - - [14/Nov/2018 19:41:16] "GET /preview?path=_inbox/canon_7d2.2018-07-01.038A5075.jpg&max_quality=true HTTP/1.1" 200 -
-2018-11-14 19:56:55,478 - [INFO] werkzeug [_internal, line 88]:  * Detected change in '/Users/home/Google_Drive/_CODE/python.homemedia_api/api/data_models.py', reloading
