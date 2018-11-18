@@ -38,7 +38,9 @@ class LightboxUrl(fields.Raw):
 
         scheme = settings.PREVIEW_SERVER_SCHEME
         netloc = settings.PREVIEW_SERVER_NETLOC
-        path = '/%s/%s/%s' % (settings.PREVIEW_SERVER_PATH, year, cache_filename)
+        path = '%s/%s' % (year, cache_filename)
+        if settings.PREVIEW_SERVER_PATH != '':
+            path = '%s/%s' % (settings.PREVIEW_SERVER_PATH, path)
         return urlparse.urlunsplit((scheme, netloc, path, '', ''))
 
 
