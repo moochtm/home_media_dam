@@ -41,7 +41,7 @@ def get_jpeg_binary(full_path, longest_edge_res):
     extension = extension[1:]
 
     # If the image format is CR2, then use exiftool to extract an embedded jpeg image
-    if extension.lower() == 'cr2':
+    if extension.lower() in ('cr2', 'dng'):
 
         tempdir = tempfile.gettempdir() + os.path.sep
         f, _ = os.path.splitext(os.path.basename(full_path))

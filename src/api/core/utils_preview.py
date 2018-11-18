@@ -24,6 +24,7 @@ def get_binary_and_mime(full_path, longest_edge_res, cache_bust=False, no_return
 
         if response == True and not no_return:
             # (try to) get pre-cached file, as long as we're not cache-busting
+            log.info('Generating cache file: %s' % cache_filename)
             response = utils_cache.get_file_binary(cache_filename)
 
     if not response:
