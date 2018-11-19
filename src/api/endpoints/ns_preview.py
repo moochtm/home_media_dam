@@ -9,7 +9,7 @@ import settings
 import logging
 log = logging.getLogger(__name__)
 
-api = Namespace('preview', description='get preview image for asset')
+api = Namespace('previews', description='get previews image for asset')
 
 # https://helpcenter.woodwing.com/hc/en-us/articles/115002690126-Elvis-6-REST-API-browse
 
@@ -17,7 +17,7 @@ api = Namespace('preview', description='get preview image for asset')
 
 parser = api.parser()
 parser.add_argument('path', type=str, help='path to the folder you want to list', required=True)
-parser.add_argument('max_quality', type=inputs.boolean, help='return the max quality level preview', default=False)
+parser.add_argument('max_quality', type=inputs.boolean, help='return the max quality level previews', default=False)
 parser.add_argument('cache_bust', type=str, help='force regen of the cached image', default='False')
 
 #################################################################################
@@ -29,7 +29,7 @@ parser.add_argument('cache_bust', type=str, help='force regen of the cached imag
 class Preview(Resource):
 
     #################################################################################
-    # GET preview
+    # GET previews
     #################################################################################
 
     @api.expect(parser, validate=True)

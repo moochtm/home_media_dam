@@ -1,10 +1,9 @@
-
 import os
 import inspect
 import sys
 import settings
 
-from src.api.core import utils_preview, utils_fs
+from src.api.core import utils_redis, utils_fs
 
 pathToThisPyFile = inspect.getfile(inspect.currentframe())
 
@@ -38,8 +37,8 @@ logging.getLogger('').addHandler(console)
 
 logger = logging.getLogger(__name__)
 
-def run():
 
+def run():
     logger.info('Starting...')
     pathToThisPyFile = inspect.getfile(inspect.currentframe())
 
@@ -70,9 +69,8 @@ def run():
         for fname in fileList:
             fpath = os.path.join(dirName, fname)
             if utils_fs.isfile(fpath, settings.MEDIA_FILE_EXTENSIONS):
-                for res in (settings.PREVIEW_MIN_RES, settings.PREVIEW_MAX_RES):
-                    logger.info('asset: %s' % fpath)
-                    utils_preview.get_binary_and_mime(full_path=fpath, longest_edge_res=res, no_return=True)
+                logger.info('asset: %s' % fpath)
+                utils_redis.add_preview_task_to_redis(full_path=fpath)
 
     # UNLOCK
     # ------------------------------------------

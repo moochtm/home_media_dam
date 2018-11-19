@@ -2,6 +2,7 @@
 import utils_fs
 import utils_cache
 import utils_images
+import settings
 
 import logging
 log = logging.getLogger(__name__)
@@ -37,7 +38,7 @@ def get_binary_and_mime(full_path, longest_edge_res, cache_bust=False, no_return
         # cache the generated binary for next time
         utils_cache.store_binary_file(cache_filename, response, str(year))
 
-    # the mime will always be jpeg for preview images
+    # the mime will always be jpeg for previews images
     mime = "image/jpeg"
 
     return response, mime
@@ -57,20 +58,51 @@ def get_cache_filename(full_path, longest_edge_res):
     return cache_name
 
 
+def cache_all_preview_images(full_path, cache_bust=False):
+    for res in [settings.PREVIEW_MIN_RES, settings.PREVIEW_MAX_RES]:
+        cache_preview_image(full_path, longest_edge_res=res, cache_bust=cache_bust)
+
+
+def cache_preview_image(full_path, longest_edge_res, cache_bust=False):
+    # get constructed cache filename
+    cache_filename = get_cache_filename(full_path, longest_edge_res)
+
+    # get year from file createdDate
+    year = utils_fs.get_creation_year(full_path)
+
+    preview_image_exists = False
+    if not cache_bust:
+        preview_image_exists = utils_cache.check_file_exists(filename=cache_filename, year=year)
+
+    if not preview_image_exists:
+        # if there was no pre-cached file...
+        log.info('Generating preview (%s)' % cache_filename)
+
+        # get a generated binary
+        binary = utils_images.get_jpeg_binary(full_path, longest_edge_res)
+
+        # cache the generated binary for next time
+        utils_cache.store_binary_file(cache_filename, binary, str(year))
+
+        # check again if preview image exists (it really should!)
+        preview_image_exists = utils_cache.check_file_exists(filename=cache_filename, year=year)
+
+    else:
+        log.info('Preview found in cache (%s)' % cache_filename)
+
+    return preview_image_exists
+
+
 ##################################################################
 # tests
 ##################################################################
 
 
 def main():
-    import settings
 
     full_path = '/Users/home/Pictures/test.CR2'
-    longest_edge_res = settings.PREVIEW_MIN_RES
 
-    print get_binary_and_mime(full_path, longest_edge_res)
-
-    # print get_metadata_batch(['/Users/Home/Pictures/test.cr2'])
+    cache_all_preview_images(full_path)
 
 
 if __name__ == "__main__":

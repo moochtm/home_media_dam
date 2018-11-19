@@ -55,7 +55,7 @@ class MoveUrl(fields.Raw):
 class ThumbnailUrl(fields.Raw):
     def format(self, value):
         split_url = urlparse.urlsplit(request.url)
-        path = '/preview'
+        path = '/previews'
         query = 'path=%s' % urllib.quote(value)
         return urlparse.urlunsplit((split_url.scheme, split_url.netloc, path, query, ''))
 
