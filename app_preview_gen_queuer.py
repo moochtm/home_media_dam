@@ -23,28 +23,23 @@ if not os.path.exists(log_folder_path):
     os.mkdir(log_folder_path)
 log_path = os.path.join(log_folder_path, filename)
 
+format_string = '%(asctime)s - [%(levelname)s] %(name)s [%(module)s, line %(lineno)d]: %(message)s'
+
 # set up logging to file
 logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - [%(levelname)s] %(name)s [%(module)s, line %(lineno)d]: %(message)s',
-                    datefmt='%m-%d %H:%M',
-                    filename=log_path,
-                    filemode='w')
+                    format=format_string,
+                    datefmt='%Y-%m-%d %H:%M')
 
 # set a format which is simpler for console use
-formatter = logging.Formatter('%(asctime)s - [%(levelname)s] %(name)s [%(module)s, line %(lineno)d]: %(message)s')
+formatter = logging.Formatter(format_string)
 
-# define handlers
-console = logging.StreamHandler()
-console.setLevel(logging.DEBUG)
-console.setFormatter(formatter)
-
+# define handler
 file_log = TimedRotatingFileHandler(log_path, when='W6')
 file_log.setLevel(logging.DEBUG)
-console.setFormatter(formatter)
+file_log.setFormatter(formatter)
 
 # add the handlers to the root logger
-logging.getLogger('').addHandler(console)
-logging.getLogger('').addHandler(file_log)
+logging.getLogger().addHandler(file_log)
 
 log = logging.getLogger(__name__)
 
@@ -64,6 +59,9 @@ class MyHandler(PatternMatchingEventHandler):
     def on_created(self, event):
         log.info("File created: %s" % event.src_path)
         utils_redis.add_preview_task_to_redis(event.src_path)
+
+    def on_modified(self, event):
+        log.info("File modified: %s" % event.src_path)
 
 
 if __name__ == '__main__':

@@ -10,4 +10,5 @@ log = logging.getLogger(__name__)
 
 def add_preview_task_to_redis(full_path):
     q = Queue('previews', connection=Redis())
-    result = q.enqueue(utils_preview.cache_all_preview_images, full_path)
+    job = q.enqueue(utils_preview.cache_all_preview_images, full_path)
+    log.info("Redis Job created: %s " % job.key)
