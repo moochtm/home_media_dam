@@ -1,5 +1,7 @@
+
+import os
 from flask_restplus import Namespace, Resource, inputs
-from flask import request, send_file
+from flask import request, send_file, send_from_directory
 import urlparse
 
 from src.api.core import utils_preview
@@ -19,6 +21,7 @@ parser = api.parser()
 parser.add_argument('path', type=str, help='path to the folder you want to list', required=True)
 parser.add_argument('max_quality', type=inputs.boolean, help='return the max quality level previews', default=False)
 parser.add_argument('cache_bust', type=str, help='force regen of the cached image', default='False')
+parser.add_argument('send_binary', type=str, default='False')
 
 #################################################################################
 # PREVIEW Class
@@ -26,6 +29,7 @@ parser.add_argument('cache_bust', type=str, help='force regen of the cached imag
 
 
 @api.route('')
+@api.route('/<path:cache_path>')
 class Preview(Resource):
 
     #################################################################################
@@ -37,7 +41,13 @@ class Preview(Resource):
     @api.response(400, 'Bad Request')
     @api.response(200, 'Success')
     @api.response(500, 'Internal Server Error')
-    def get(self):
+    def get(self, cache_path):
+
+        print cache_path
+        cache_fullpath = os.path.join(settings.IMAGE_CACHE_PATH, cache_path)
+        if os.path.isfile(cache_fullpath):
+            directory, filename = os.path.split(cache_fullpath)
+            return send_from_directory(directory=directory, filename=filename)
 
         # Get parameters
         args = parser.parse_args()
@@ -58,12 +68,10 @@ class Preview(Resource):
             log.error("Bad Path: Path is not a supported file (%s)" % full_path)
             return "Bad Path: Path is not a supported file", 404
 
-        # Start response
-        # response =
-
-        binary, mime = utils_preview.get_binary_and_mime(full_path, longest_edge_res, cache_bust)
-
-        # seek back to 0 just in case!
-        binary.seek(0)
-
-        return send_file(binary, mimetype=mime)
+        if args['send_binary']:
+            binary, mime = utils_preview.get_binary_and_mime(full_path, longest_edge_res, cache_bust)
+            binary.seek(0)
+            send_file(binary)
+        else:
+            directory, filename = utils_preview.get_cache_fullpath(full_path, longest_edge_res, cache_bust)
+            send_from_directory(directory=directory, filename=filename)

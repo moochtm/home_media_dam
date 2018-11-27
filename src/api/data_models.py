@@ -54,8 +54,16 @@ class MoveUrl(fields.Raw):
 
 class ThumbnailUrl(fields.Raw):
     def format(self, value):
+        full_path = utils_fs.join_path(settings.HOMEMEDIA_ROOT, value)
+        # get constructed cache filename
+        cache_filename = utils_preview.get_cache_filename(full_path, settings.PREVIEW_MIN_RES)
+
+        # get year from file createdDate
+        year = utils_fs.get_creation_year(full_path)
+        path = '%s/%s' % (year, cache_filename)
+
         split_url = urlparse.urlsplit(request.url)
-        path = '/previews'
+        path = '/previews/%s' % path
         query = 'path=%s' % urllib.quote(value)
         return urlparse.urlunsplit((split_url.scheme, split_url.netloc, path, query, ''))
 
@@ -122,7 +130,6 @@ base_asset_model = api.model('base_asset_model', {
     'thumbnailUrl': ThumbnailUrl(attribute='path'),
     'parentBrowseUrl': ParentBrowseUrl(attribute='path'),
     'parentPath': ParentPath(attribute='path'),
-    'thumbnailUrl': ThumbnailUrl(attribute='path'),
     'lightboxUrl': LightboxUrl(attribute='path'),
     'trashUrl': TrashUrl(attribute='path'),
 })

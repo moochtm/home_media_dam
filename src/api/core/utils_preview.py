@@ -1,4 +1,6 @@
 
+import os
+
 import utils_fs
 import utils_cache
 import utils_images
@@ -56,6 +58,14 @@ def get_cache_filename(full_path, longest_edge_res):
     cache_name = cache_name.replace(' ', '-')
 
     return cache_name
+
+
+def get_cache_fullpath(full_path, longest_edge_res):
+    filename = get_cache_filename(full_path, longest_edge_res)
+    # get year from file createdDate
+    year = utils_fs.get_creation_year(full_path)
+    full_path = os.path.join(settings.IMAGE_CACHE_PATH, year, filename)
+    return full_path
 
 
 def cache_all_preview_images(full_path, cache_bust=False):

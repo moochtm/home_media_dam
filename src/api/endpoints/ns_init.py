@@ -34,4 +34,17 @@ class Init(Resource):
         response['inbox_folder_path'] = settings.HOMEMEDIA_INBOX
         response['archive_folder_path'] = settings.HOMEMEDIA_ARCHIVE
 
+        # URLs
+        # - browse
+        # - trash
+        # - un-trash
+        # - move
+        # - smallPreview
+        # - largePreview
+        # - generatePreviews
+
+        # configured paths
+        # - inbox
+        # - archive
+
         return response
