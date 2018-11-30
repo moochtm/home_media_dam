@@ -60,11 +60,14 @@ def get_cache_filename(full_path, longest_edge_res):
     return cache_name
 
 
-def get_cache_fullpath(full_path, longest_edge_res):
+def get_preview_fullpath(full_path, longest_edge_res, cache_bust):
     filename = get_cache_filename(full_path, longest_edge_res)
     # get year from file createdDate
     year = utils_fs.get_creation_year(full_path)
-    full_path = os.path.join(settings.IMAGE_CACHE_PATH, year, filename)
+    full_path = os.path.join(settings.IMAGE_CACHE_PATH, str(year), filename)
+
+    if cache_bust or not utils_fs.isfile(full_path):
+        cache_preview_image(full_path, longest_edge_res=longest_edge_res)
     return full_path
 
 

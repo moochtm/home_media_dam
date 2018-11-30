@@ -29,19 +29,10 @@ class Children(fields.Raw):
 
 class LightboxUrl(fields.Raw):
     def format(self, value):
-        full_path = utils_fs.join_path(settings.HOMEMEDIA_ROOT, value)
-        # get constructed cache filename
-        cache_filename = utils_preview.get_cache_filename(full_path, settings.PREVIEW_MAX_RES)
-
-        # get year from file createdDate
-        year = utils_fs.get_creation_year(full_path)
-
-        scheme = settings.PREVIEW_SERVER_SCHEME
-        netloc = settings.PREVIEW_SERVER_NETLOC
-        path = '%s/%s' % (year, cache_filename)
-        if settings.PREVIEW_SERVER_PATH != '':
-            path = '%s/%s' % (settings.PREVIEW_SERVER_PATH, path)
-        return urlparse.urlunsplit((scheme, netloc, path, '', ''))
+        split_url = urlparse.urlsplit(request.url)
+        path = '/previews'
+        query = 'path=%s&max_quality=true' % value
+        return urlparse.urlunsplit((split_url.scheme, split_url.netloc, path, query, ''))
 
 
 class MoveUrl(fields.Raw):
@@ -54,17 +45,9 @@ class MoveUrl(fields.Raw):
 
 class ThumbnailUrl(fields.Raw):
     def format(self, value):
-        full_path = utils_fs.join_path(settings.HOMEMEDIA_ROOT, value)
-        # get constructed cache filename
-        cache_filename = utils_preview.get_cache_filename(full_path, settings.PREVIEW_MIN_RES)
-
-        # get year from file createdDate
-        year = utils_fs.get_creation_year(full_path)
-        path = '%s/%s' % (year, cache_filename)
-
         split_url = urlparse.urlsplit(request.url)
-        path = '/previews/%s' % path
-        query = 'path=%s' % urllib.quote(value)
+        path = '/previews'
+        query = 'path=%s' % value
         return urlparse.urlunsplit((split_url.scheme, split_url.netloc, path, query, ''))
 
 
