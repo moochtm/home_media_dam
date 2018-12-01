@@ -3,6 +3,9 @@ import inspect
 import sys
 import settings
 
+import logging
+from logging.handlers import TimedRotatingFileHandler
+
 from src.api.core import utils_redis, utils_fs
 
 pathToThisPyFile = inspect.getfile(inspect.currentframe())
@@ -11,32 +14,37 @@ pathToThisPyFile = inspect.getfile(inspect.currentframe())
 # SETUP LOGGING
 ################################################################################
 
-import logging
-
 pathToThisPyFile = inspect.getfile(inspect.currentframe())
 path, filename = os.path.split(pathToThisPyFile)
 filename = os.path.splitext(filename)[0] + '.log'
-log_path = os.path.join(path, filename)
+log_folder_path = os.path.join(path, 'logs')
+if not os.path.exists(log_folder_path):
+    os.mkdir(log_folder_path)
+log_path = os.path.join(log_folder_path, filename)
+
+format_string = '%(asctime)s - [%(levelname)s] %(name)s [%(module)s, line %(lineno)d]: %(message)s'
 
 # set up logging to file
 logging.basicConfig(level=logging.DEBUG,
-                    format='%(asctime)s - [%(levelname)s] %(name)s [%(module)s, line %(lineno)d]: %(message)s',
-                    datefmt='%m-%d %H:%M',
-                    filename=log_path,
-                    filemode='w')
+                    format=format_string,
+                    datefmt='%Y-%m-%d %H:%M')
 
-# define a Handler which writes INFO messages or higher to the sys.stderr
-console = logging.StreamHandler()
-console.setLevel(logging.DEBUG)
 # set a format which is simpler for console use
-formatter = logging.Formatter('%(asctime)s - [%(levelname)s] %(name)s [%(module)s, line %(lineno)d]: %(message)s')
-# tell the handler to use this format
-console.setFormatter(formatter)
-# add the handler to the root logger
-logging.getLogger('').addHandler(console)
+formatter = logging.Formatter(format_string)
+
+# define handler
+file_log = TimedRotatingFileHandler(log_path, when='W6')
+file_log.setLevel(logging.DEBUG)
+file_log.setFormatter(formatter)
+
+# add the handlers to the root logger
+logging.getLogger().addHandler(file_log)
 
 logger = logging.getLogger(__name__)
 
+################################################################################
+# MAIN
+################################################################################
 
 def run():
     logger.info('Starting...')

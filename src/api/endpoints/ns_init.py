@@ -36,6 +36,8 @@ class Init(Resource):
 
         # URLs
         # - browse
+        # "code_search_url": "https://api.github.com/search/code?q={query}{&page,per_page,sort,order}"
+        # '/browse?path={path}'
         # - trash
         # - un-trash
         # - move
