@@ -47,8 +47,8 @@ log = logging.getLogger(__name__)
 
 
 my_path, _ = os.path.split(os.path.realpath(__file__))
-static_path = os.path.join(my_path, 'web/static')
-templates_path = os.path.join(my_path, 'web/templates')
+static_path = os.path.join(my_path, 'src/web/static')
+templates_path = os.path.join(my_path, 'src/web/templates')
 print static_path
 
 

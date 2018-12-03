@@ -46,7 +46,7 @@ logger = logging.getLogger(__name__)
 # MAIN
 ################################################################################
 
-def run():
+def run(root_folder=settings.HOMEMEDIA_ROOT, media_file_extensions=settings.MEDIA_FILE_EXTENSIONS):
     logger.info('Starting...')
     pathToThisPyFile = inspect.getfile(inspect.currentframe())
 
@@ -61,7 +61,7 @@ def run():
 
     # DO THE WORK
     # ------------------------------------------
-    for dirName, subdirList, fileList in os.walk(settings.HOMEMEDIA_ROOT):
+    for dirName, subdirList, fileList in os.walk(root_folder):
         tempdirs = []
         for dir in subdirList:
             blacklisted = False
@@ -76,7 +76,7 @@ def run():
 
         for fname in fileList:
             fpath = os.path.join(dirName, fname)
-            if utils_fs.isfile(fpath, settings.MEDIA_FILE_EXTENSIONS):
+            if utils_fs.isfile(fpath, media_file_extensions):
                 logger.info('asset: %s' % fpath)
                 utils_redis.add_preview_task_to_redis(full_path=fpath)
 
@@ -86,4 +86,8 @@ def run():
 
 
 if __name__ == '__main__':
-    sys.exit(run())
+    root_folder = ''
+    media_file_extensions = ['.HEIC']
+
+    sys.exit(run(media_file_extensions=media_file_extensions))
+    # sys.exit(run())

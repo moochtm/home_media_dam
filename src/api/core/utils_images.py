@@ -86,6 +86,29 @@ def get_jpeg_binary(full_path, longest_edge_res):
         if os.path.exists(tempf):
             os.remove(tempf)
 
+    elif extension.lower() in ('heic'):
+        # TODO: support getting framegrab from HEIC files
+
+        tempdir = tempfile.gettempdir() + os.path.sep
+        f, _ = os.path.splitext(os.path.basename(full_path))
+        tempf = os.path.join(tempdir, f + ".jpg")
+
+        cmd = '"' + settings.CONVERT + '" "' + full_path + '" "' + tempf + '"'
+        log.debug("IMAGE MAGICK CONVERT cmd: %s" % cmd)
+
+        try:
+            subprocess.check_output(cmd, shell=True)
+            im = PILImage.open(tempf)
+        except subprocess.CalledProcessError as e:
+            log.debug(e.output)
+            im = PILImage.new('RGB', (30, 30), color='grey')
+        except IOError as e:
+            log.error(e)
+            im = PILImage.new('RGB', (30, 30), color='grey')
+
+        if os.path.exists(tempf):
+            os.remove(tempf)
+
     else:
         im = PILImage.open(full_path)
 
