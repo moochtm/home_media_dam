@@ -3,6 +3,8 @@ import inspect
 import subprocess
 import sys
 
+import settings
+
 import logging
 from logging.handlers import TimedRotatingFileHandler
 
@@ -85,6 +87,6 @@ def run(root_path, search_term):
     logger.info('...finished')
 
 if __name__ == '__main__':
-    root_path = '/Users/home/Pictures/test2'
+    root_path = settings.HOMEMEDIA_ROOT
     search_term = '@eadir'
     sys.exit(run(root_path=root_path, search_term=search_term))
