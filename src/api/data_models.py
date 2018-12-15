@@ -67,7 +67,10 @@ class CreatedDate(fields.Raw):
 
 class Name(fields.Raw):
     def format(self, path):
-        return utils_fs.get_basename(path)
+        response = utils_fs.get_basename(path)
+        if response == '':
+            response = "ROOT"
+        return response
 
 
 class ParentBrowseUrl(fields.Raw):
@@ -117,8 +120,16 @@ base_asset_model = api.model('base_asset_model', {
     'trashUrl': TrashUrl(attribute='path'),
 })
 
-folder_model = api.clone('folder_model', base_folder_model,
-                         {
-                             'children': fields.List(fields.Nested(base_folder_model)),
-                             'assets': fields.List(fields.Nested(base_asset_model))
-                         })
+
+def recursive_folder_model(iteration_number=10):
+    folder_json_mapping = {
+        'path': fields.String(),
+        'name': Name(attribute='path'),
+        'browseUrl': BrowseUrl(attribute='path'),
+        'createdDate': CreatedDate(attribute='path'),
+        'parentBrowseUrl': ParentBrowseUrl(attribute='path'),
+        'assets': fields.List(fields.Nested(base_asset_model))
+    }
+    if iteration_number:
+        folder_json_mapping['children'] = fields.List(fields.Nested(recursive_folder_model(iteration_number-1), skip_none=True))
+    return api.model('Folder'+str(iteration_number), folder_json_mapping)

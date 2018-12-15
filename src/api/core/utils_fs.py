@@ -181,6 +181,7 @@ def restore(src_path, trash_path):
 
     return True
 
+
 def get_creation_date(path):
     """
     Try to get the date that a file was created, falling back to when it was
