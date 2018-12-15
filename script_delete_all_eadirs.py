@@ -88,5 +88,5 @@ def run(root_path, search_term):
 
 if __name__ == '__main__':
     root_path = settings.HOMEMEDIA_ROOT
-    search_term = '@eadir'
+    search_term = '@eaDir'
     sys.exit(run(root_path=root_path, search_term=search_term))
