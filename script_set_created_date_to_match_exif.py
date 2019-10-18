@@ -99,5 +99,5 @@ if __name__ == "__main__":
 
     (options, args) = parser.parse_args()
 
-    main(args, dummy_run=options.dummy)
+    main(args, dummy_run=options.dummy_run)
 
