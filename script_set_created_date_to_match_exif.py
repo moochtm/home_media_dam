@@ -7,11 +7,12 @@ import inspect
 import logging
 from logging.handlers import TimedRotatingFileHandler
 
+import settings
+
 import src.thirdparty.exiftool as exiftool
-et = exiftool.ExifTool()
+et = exiftool.ExifTool(settings.EXIFTOOL)
 import src.thirdparty.sortphotos as sortphotos
 
-import settings
 from src.api.core import utils_fs
 
 ################################################################################
