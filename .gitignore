@@ -12,3 +12,4 @@ Icon
 ._*
 
 settings.py
+supervisord.conf

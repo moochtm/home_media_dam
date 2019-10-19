@@ -5,6 +5,7 @@ import logging
 from logging.handlers import TimedRotatingFileHandler
 
 import time
+import settings
 from watchdog.observers import Observer
 from watchdog.events import PatternMatchingEventHandler
 
@@ -77,11 +78,10 @@ class MyHandler(PatternMatchingEventHandler):
 
 if __name__ == '__main__':
 
-    path = "test"
-    log.info("Watch path: %s" % path)
+    log.info("Watch path: %s" % settings.HOMEMEDIA_ROOT)
 
     observer = Observer()
-    observer.schedule(MyHandler(), path=path, recursive=True)
+    observer.schedule(MyHandler(), path=settings.HOMEMEDIA_ROOT, recursive=True)
     observer.start()
 
     try:
