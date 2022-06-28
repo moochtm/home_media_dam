@@ -1,6 +1,6 @@
 aniso8601==4.0.1
 argh==0.26.2
-arrow==0.12.1
+arrow==0.15.1
 backports.functools-lru-cache==1.5
 certifi==2018.10.15
 chardet==3.0.4
